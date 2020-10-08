@@ -15,6 +15,7 @@
         android:text="@string/team" />
 
     <TextView
+        android:id="@+id/team_a_score"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -25,18 +26,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:onClick="AddThreeForTeamA"
         android:text="@string/_3_points" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:onClick="AddTwoForTeamA"
         android:text="@string/_1_points" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:onClick="AddOneForTeamA"
         android:text="@string/free_throw" />
 
 </LinearLayout>
